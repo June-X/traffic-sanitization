@@ -1,0 +1,176 @@
+BUILD: Computing Include file dependencies:
+BUILD: Examining c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru directory for files to compile.
+skipping post pass 0 command
+Compiling and Linking c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru *************
+'nmake.exe /nologo BUILDMSG=Stop. -i BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+ rc -l 409 -DSXS_PROCESSOR_ARCHITECTURE="""x86"""  -DSXS_TARGET="""passthru.sys"""   -DSYSTEM_COMPATIBLE_ASSEMBLY_NAME="""Microsoft.Windows.SystemCompatible"""  -DLSYSTEM_COMPATIBLE_ASSEMBLY_NAME=L"""Microsoft.Windows.SystemCompatible"""   -DSXS_ASSEMBLY_VERSION=""""""  /r /fo c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\objchk_wlh_x86\i386\passthru.res /D_X86_=1 /Di386=1  /DSTD_CALL /DCONDITION_HANDLING=1   /DNT_INST=0 /DWIN32=100 /D_NT1X_=100 /DWINNT=1 /D_WIN32_WINNT=0x0600 /DWINVER=0x0600 /D_WIN32_IE=0x0700    /DWIN32_LEAN_AND_MEAN=1  /DDEVL=1 /DDBG=1 /D__BUILDMACHINE__=WinDDK /DFPO=0   /D_DLL=1 /DNDEBUG  -DNDIS_MINIPORT_DRIVER -DNDIS_WDM=1 -DNDIS51_MINIPORT=1 -DNDIS51=1 /DDEPRECATE_DDK_FUNCTIONS=1 /DMSC_NOOPT /DNTDDI_VERSION=0x06000100   /Ic:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\objchk_wlh_x86\i386 /IC:\WinDDK\6001.18002\inc\api /IC:\WinDDK\6001.18002\inc\api /IC:\WinDDK\6001.18002\inc\ddk /IC:\WinDDK\6001.18002\inc\ddk /IC:\WinDDK\6001.18002\inc\crt .\passthru.rc
+Microsoft (R) Windows (R) Resource Compiler Version 6.0.5724.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+ cl.exe @c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\objchk_wlh_x86\i386\cl.rsp
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.278 for 80x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+cl /Fo"c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\objchk_wlh_x86\i386/"
+ /FC
+ /Ii386
+ /I.
+ /Ic:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\objchk_wlh_x86\i386
+ /IC:\WinDDK\6001.18002\inc\api
+ /IC:\WinDDK\6001.18002\inc\api
+ /IC:\WinDDK\6001.18002\inc\ddk
+ /IC:\WinDDK\6001.18002\inc\ddk
+ /IC:\WinDDK\6001.18002\inc\crt
+ /D_X86_=1
+ /Di386=1
+ /DSTD_CALL
+ /DCONDITION_HANDLING=1
+ /DNT_INST=0
+ /DWIN32=100
+ /D_NT1X_=100
+ /DWINNT=1
+ /D_WIN32_WINNT=0x0600
+ /DWINVER=0x0600
+ /D_WIN32_IE=0x0700
+ /DWIN32_LEAN_AND_MEAN=1
+ /DDEVL=1
+ /DDBG=1
+ /D__BUILDMACHINE__=WinDDK
+ /DFPO=0
+ /D_DLL=1
+ /DNDEBUG
+ -DNDIS_MINIPORT_DRIVER
+ -DNDIS_WDM=1
+ -DNDIS51_MINIPORT=1
+ -DNDIS51=1
+ /DDEPRECATE_DDK_FUNCTIONS=1
+ /DMSC_NOOPT
+ /DNTDDI_VERSION=0x06000100
+ /c
+ /Zc:wchar_t-
+ /Zl
+ /Zp8
+ /Gy
+ /Gm-
+ -cbstring
+ /W1
+ /Gz
+ /hotpatch
+ /EHs-c-
+ /GR-
+ /GF
+ /GS
+ /Zi
+ /Od
+ /Oi
+ /Oy-
+ /Zi
+ /Fdc:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\objchk_wlh_x86\i386\
+ /DKMDF_MAJOR_VERSION=01
+ /DKMDF_MINOR_VERSION=007
+ /FIC:\WinDDK\6001.18002\inc\api\warning.h
+ .\miniport.c .\passthru.c .\protocol.c .\umac.c .\rijndael-alg-fst.c 
+miniport.c
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(681) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [4]'
+warnings in directory c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(681) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [4]'
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(681) : warning C4024: 'ExAllocatePoolWithTag' : different types for formal and actual parameter 3
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(681) : warning C4024: 'ExAllocatePoolWithTag' : different types for formal and actual parameter 3
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(689) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [4]'
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(689) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [4]'
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(689) : warning C4024: 'ExFreePoolWithTag' : different types for formal and actual parameter 2
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(689) : warning C4024: 'ExFreePoolWithTag' : different types for formal and actual parameter 2
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(695) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [4]'
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(695) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [4]'
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(695) : warning C4024: 'ExFreePoolWithTag' : different types for formal and actual parameter 2
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(695) : warning C4024: 'ExFreePoolWithTag' : different types for formal and actual parameter 2
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(709) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [4]'
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(709) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [4]'
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(709) : warning C4024: 'ExFreePoolWithTag' : different types for formal and actual parameter 2
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(709) : warning C4024: 'ExFreePoolWithTag' : different types for formal and actual parameter 2
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(715) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [5]'
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(715) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [5]'
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(715) : warning C4024: 'ExFreePoolWithTag' : different types for formal and actual parameter 2
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(715) : warning C4024: 'ExFreePoolWithTag' : different types for formal and actual parameter 2
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(727) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [4]'
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(727) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [4]'
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(727) : warning C4024: 'ExAllocatePoolWithTag' : different types for formal and actual parameter 3
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(727) : warning C4024: 'ExAllocatePoolWithTag' : different types for formal and actual parameter 3
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(731) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [4]'
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(731) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [4]'
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(731) : warning C4024: 'ExFreePoolWithTag' : different types for formal and actual parameter 2
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(731) : warning C4024: 'ExFreePoolWithTag' : different types for formal and actual parameter 2
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(859) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [4]'
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(859) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [4]'
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(859) : warning C4024: 'ExFreePoolWithTag' : different types for formal and actual parameter 2
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(859) : warning C4024: 'ExFreePoolWithTag' : different types for formal and actual parameter 2
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(865) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [5]'
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(865) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [5]'
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(865) : warning C4024: 'ExFreePoolWithTag' : different types for formal and actual parameter 2
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(865) : warning C4024: 'ExFreePoolWithTag' : different types for formal and actual parameter 2
+passthru.c
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\passthru.c(350) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [5]'
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\passthru.c(350) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [5]'
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\passthru.c(350) : warning C4024: 'ExAllocatePoolWithTag' : different types for formal and actual parameter 3
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\passthru.c(350) : warning C4024: 'ExAllocatePoolWithTag' : different types for formal and actual parameter 3
+protocol.c
+umac.c
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\rijndael-alg-fst.h(32) : warning C4005: '_MSC_VER' : macro redefinition
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\rijndael-alg-fst.h(32) : warning C4005: '_MSC_VER' : macro redefinition
+ command-line arguments : see previous definition of '_MSC_VER'
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\umac.c(1695) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [5]'
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\umac.c(1695) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [5]'
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\umac.c(1695) : warning C4024: 'ExAllocatePoolWithTag' : different types for formal and actual parameter 3
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\umac.c(1695) : warning C4024: 'ExAllocatePoolWithTag' : different types for formal and actual parameter 3
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\umac.c(1721) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [5]'
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\umac.c(1721) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [5]'
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\umac.c(1721) : warning C4024: 'ExFreePoolWithTag' : different types for formal and actual parameter 2
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\umac.c(1721) : warning C4024: 'ExFreePoolWithTag' : different types for formal and actual parameter 2
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\umac.c(1887) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [5]'
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\umac.c(1887) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [5]'
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\umac.c(1887) : warning C4024: 'ExFreePoolWithTag' : different types for formal and actual parameter 2
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\umac.c(1887) : warning C4024: 'ExFreePoolWithTag' : different types for formal and actual parameter 2
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\umac.c(1903) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [5]'
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\umac.c(1903) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [5]'
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\umac.c(1903) : warning C4024: 'ExAllocatePoolWithTag' : different types for formal and actual parameter 3
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\umac.c(1903) : warning C4024: 'ExAllocatePoolWithTag' : different types for formal and actual parameter 3
+rijndael-alg-fst.c
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\rijndael-alg-fst.h(32) : warning C4005: '_MSC_VER' : macro redefinition
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\rijndael-alg-fst.h(32) : warning C4005: '_MSC_VER' : macro redefinition
+ command-line arguments : see previous definition of '_MSC_VER'
+Generating Code...
+ link.exe /out:c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\objchk_wlh_x86\i386\passthru.sys /machine:ix86 @c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\objchk_wlh_x86\i386\lnk.rsp
+Microsoft (R) Incremental Linker Version 8.00.50727.278
+Copyright (C) Microsoft Corporation.  All rights reserved.
+/MERGE:_PAGE=PAGE 
+/MERGE:_TEXT=.text 
+/SECTION:INIT,d 
+/OPT:REF 
+/OPT:ICF 
+/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+/INCREMENTAL:NO 
+/release 
+/NODEFAULTLIB 
+/WX 
+/debug 
+/debugtype:cv,fixup,pdata 
+/version:6.0 
+/osversion:6.0 
+/functionpadmin:5 
+/safeseh 
+/pdbcompress 
+/STACK:0x40000,0x1000 
+/driver 
+/base:0x10000 
+/subsystem:native,6.00 
+/entry:GsDriverEntry@8 
+/out:c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\objchk_wlh_x86\i386\passthru.sys 
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\objchk_wlh_x86\i386\passthru.res 
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\objchk_wlh_x86\i386\miniport.obj 
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\objchk_wlh_x86\i386\passthru.obj 
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\objchk_wlh_x86\i386\protocol.obj 
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\objchk_wlh_x86\i386\umac.obj 
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\objchk_wlh_x86\i386\rijndael-alg-fst.obj 
+C:\WinDDK\6001.18002\lib\wlh\i386\BufferOverflowK.lib 
+C:\WinDDK\6001.18002\lib\wlh\i386\ntoskrnl.lib 
+C:\WinDDK\6001.18002\lib\wlh\i386\hal.lib 
+C:\WinDDK\6001.18002\lib\wlh\i386\wmilib.lib 
+C:\WinDDK\6001.18002\lib\wlh\i386\ndis.lib 

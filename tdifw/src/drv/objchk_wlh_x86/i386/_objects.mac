@@ -1,0 +1,37 @@
+
+
+386_OBJECTS=\
+ $(OBJ_PATH)\$O\tdi_fw.obj \
+ $(OBJ_PATH)\$O\umac.obj \
+ $(OBJ_PATH)\$O\rijndael-alg-fst.obj \
+ $(OBJ_PATH)\$O\dispatch.obj \
+ $(OBJ_PATH)\$O\disp_conn.obj \
+ $(OBJ_PATH)\$O\disp_dg.obj \
+ $(OBJ_PATH)\$O\disp_ev.obj \
+ $(OBJ_PATH)\$O\disp_obj.obj \
+ $(OBJ_PATH)\$O\events.obj \
+ $(OBJ_PATH)\$O\ev_conn.obj \
+ $(OBJ_PATH)\$O\ev_dg.obj \
+ $(OBJ_PATH)\$O\filter.obj \
+ $(OBJ_PATH)\$O\memtrack.obj \
+ $(OBJ_PATH)\$O\obj_tbl.obj \
+ $(OBJ_PATH)\$O\sock.obj \
+ $(OBJ_PATH)\$O\ipc.obj \
+ $(OBJ_PATH)\$O\pid_pname.obj \
+ $(OBJ_PATH)\$O\packet.obj \
+ $(OBJ_PATH)\$O\conn_state.obj \
+ $(OBJ_PATH)\$O\sids.obj \
+ $(OBJ_PATH)\$O\disp_sr.obj \
+ $(OBJ_PATH)\$O\ev_recv.obj \
+
+
+
+
+
+# lowercased
+BASEDIR=c:\winddk\6001.18002
+OBJECT_ROOT=c:\winddk\6001.18002
+MAKEDIR_LOWERCASE=c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv
+OBJ_PATH=c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv
+CONCURRENT_MIDL=0
+CONCURRENT_MANIFEST_BUILD=0

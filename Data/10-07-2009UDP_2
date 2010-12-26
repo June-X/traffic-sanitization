@@ -1,0 +1,22 @@
+bin/iperf.exe -c 127.0.0.1 -u -P 1 -i 1 -p 5001 -f k -b 1M -t 10 -T 1
+------------------------------------------------------------
+Client connecting to 127.0.0.1, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size: 8.00 KByte (default)
+------------------------------------------------------------
+[1912] local 127.0.0.1 port 1518 connected with 127.0.0.1 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[1912]  0.0- 1.0 sec   123 KBytes  1011 Kbits/sec
+[1912]  1.0- 2.0 sec   122 KBytes  1000 Kbits/sec
+[1912]  2.0- 3.0 sec   122 KBytes  1000 Kbits/sec
+[1912]  3.0- 4.0 sec   121 KBytes   988 Kbits/sec
+[1912]  4.0- 5.0 sec   122 KBytes  1000 Kbits/sec
+[1912]  5.0- 6.0 sec   122 KBytes  1000 Kbits/sec
+[1912]  6.0- 7.0 sec   121 KBytes   988 Kbits/sec
+[1912]  7.0- 8.0 sec   116 KBytes   953 Kbits/sec
+[1912]  8.0- 9.0 sec   122 KBytes  1000 Kbits/sec
+[1912]  9.0-10.0 sec   122 KBytes  1000 Kbits/sec
+[1912]  0.0-10.0 sec  1214 KBytes   992 Kbits/sec
+read failed: Connection reset by peer
+Done.
+

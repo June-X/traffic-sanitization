@@ -1,0 +1,8 @@
+; InputHook.def : Declares the module parameters for the DLL.
+
+LIBRARY      "InputHook"
+
+EXPORTS
+    ; Explicit exports can go here
+	installHook
+	uninstallHook

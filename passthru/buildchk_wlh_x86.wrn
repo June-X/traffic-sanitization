@@ -1,0 +1,31 @@
+warnings in directory c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(681) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [4]'
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(681) : warning C4024: 'ExAllocatePoolWithTag' : different types for formal and actual parameter 3
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(689) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [4]'
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(689) : warning C4024: 'ExFreePoolWithTag' : different types for formal and actual parameter 2
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(695) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [4]'
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(695) : warning C4024: 'ExFreePoolWithTag' : different types for formal and actual parameter 2
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(709) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [4]'
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(709) : warning C4024: 'ExFreePoolWithTag' : different types for formal and actual parameter 2
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(715) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [5]'
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(715) : warning C4024: 'ExFreePoolWithTag' : different types for formal and actual parameter 2
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(727) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [4]'
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(727) : warning C4024: 'ExAllocatePoolWithTag' : different types for formal and actual parameter 3
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(731) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [4]'
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(731) : warning C4024: 'ExFreePoolWithTag' : different types for formal and actual parameter 2
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(859) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [4]'
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(859) : warning C4024: 'ExFreePoolWithTag' : different types for formal and actual parameter 2
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(865) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [5]'
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\miniport.c(865) : warning C4024: 'ExFreePoolWithTag' : different types for formal and actual parameter 2
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\passthru.c(350) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [5]'
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\passthru.c(350) : warning C4024: 'ExAllocatePoolWithTag' : different types for formal and actual parameter 3
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\rijndael-alg-fst.h(32) : warning C4005: '_MSC_VER' : macro redefinition
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\umac.c(1695) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [5]'
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\umac.c(1695) : warning C4024: 'ExAllocatePoolWithTag' : different types for formal and actual parameter 3
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\umac.c(1721) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [5]'
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\umac.c(1721) : warning C4024: 'ExFreePoolWithTag' : different types for formal and actual parameter 2
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\umac.c(1887) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [5]'
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\umac.c(1887) : warning C4024: 'ExFreePoolWithTag' : different types for formal and actual parameter 2
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\umac.c(1903) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [5]'
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\umac.c(1903) : warning C4024: 'ExAllocatePoolWithTag' : different types for formal and actual parameter 3
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\passthru\rijndael-alg-fst.h(32) : warning C4005: '_MSC_VER' : macro redefinition

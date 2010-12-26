@@ -1,0 +1,71 @@
+bin/iperf.exe -c 128.6.18.140 -P 1 -i 1 -p 80 -f k -t 10
+
+------------------------------------------------------------
+
+Client connecting to 128.6.18.140, TCP port 80
+
+TCP window size: 8.00 KByte (default)
+
+------------------------------------------------------------
+[1912] local 127.0.0.1 port 1325 connected with 128.6.18.140 port 80
+[ ID] Interval       Transfer     Bandwidth
+[1912]  0.0-21.0 sec  72.0 KBytes  28.1 Kbits/sec
+write failed: Connection reset by peer
+read on server close failed: Connection reset by peer
+Done.
+
+bin/iperf.exe -c 127.0.0.1 -P 1 -i 1 -p 5001 -f k -t 10
+connect failed: Connection refused
+Done.
+
+bin/iperf.exe -c 128.6.18.140 -P 1 -i 1 -p 5001 -f k -t 10
+connect failed: Connection timed out.
+Done.
+
+bin/iperf.exe -c 128.6.18.140 -P 1 -i 1 -p 80 -f k -t 10
+------------------------------------------------------------
+Client connecting to 128.6.18.140, TCP port 80
+TCP window size: 8.00 KByte (default)
+------------------------------------------------------------
+[1912] local 127.0.0.1 port 1330 connected with 128.6.18.140 port 80
+[ ID] Interval       Transfer     Bandwidth
+[1912]  0.0-21.0 sec  72.0 KBytes  28.1 Kbits/sec
+write failed: Connection reset by peer
+read on server close failed: Connection reset by peer
+Done.
+
+bin/iperf.exe -c 128.6.18.140 -P 1 -i 1 -p 80 -f k -t 10
+------------------------------------------------------------
+Client connecting to 128.6.18.140, TCP port 80
+TCP window size: 8.00 KByte (default)
+------------------------------------------------------------
+[1912] local 127.0.0.1 port 1332 connected with 128.6.18.140 port 80
+[ ID] Interval       Transfer     Bandwidth
+[1912]  0.0-21.0 sec  72.0 KBytes  28.0 Kbits/sec
+write failed: Connection reset by peer
+read on server close failed: Connection reset by peer
+Done.
+
+bin/iperf.exe -c 128.6.18.140 -u -P 1 -i 1 -p 80 -f k -b 2M -t 10 -T 1
+------------------------------------------------------------
+Client connecting to 128.6.18.140, UDP port 80
+Sending 1470 byte datagrams
+UDP buffer size: 8.00 KByte (default)
+------------------------------------------------------------
+[1912] local 10.0.2.15 port 1501 connected with 128.6.18.140 port 80
+[ ID] Interval       Transfer     Bandwidth
+[1912]  0.0- 1.0 sec   241 KBytes  1976 Kbits/sec
+[1912]  1.0- 2.0 sec   233 KBytes  1905 Kbits/sec
+[1912]  2.0- 3.0 sec   228 KBytes  1870 Kbits/sec
+[1912]  3.0- 4.0 sec   234 KBytes  1917 Kbits/sec
+[1912]  4.0- 5.0 sec   234 KBytes  1917 Kbits/sec
+[1912]  5.0- 6.0 sec   235 KBytes  1929 Kbits/sec
+[1912]  6.0- 7.0 sec   202 KBytes  1658 Kbits/sec
+[1912]  7.0- 8.0 sec   225 KBytes  1846 Kbits/sec
+[1912]  8.0- 9.0 sec   228 KBytes  1870 Kbits/sec
+[1912]  9.0-10.0 sec   223 KBytes  1823 Kbits/sec
+[1912]  0.0-10.0 sec  2285 KBytes  1869 Kbits/sec
+[1912] WARNING: did not receive ack of last datagram after 10 tries.
+[1912] Sent 1592 datagrams
+Done.
+

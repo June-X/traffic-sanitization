@@ -1,0 +1,28 @@
+1>warnings in directory c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\rijndael-alg-fst.h(32) : warning C4005: '_MSC_VER' : macro redefinition
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\umac.c(1691) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [5]'
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\umac.c(1691) : warning C4024: 'ExAllocatePoolWithTag' : different types for formal and actual parameter 3
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\umac.c(1717) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [5]'
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\umac.c(1717) : warning C4024: 'ExFreePoolWithTag' : different types for formal and actual parameter 2
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\umac.c(1883) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [5]'
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\umac.c(1883) : warning C4024: 'ExFreePoolWithTag' : different types for formal and actual parameter 2
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\umac.c(1899) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [5]'
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\umac.c(1899) : warning C4024: 'ExAllocatePoolWithTag' : different types for formal and actual parameter 3
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\rijndael-alg-fst.h(32) : warning C4005: '_MSC_VER' : macro redefinition
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\disp_conn.c(342) : warning C4995: 'ExInitializeWorkItem': name was marked as #pragma deprecated
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\disp_conn.c(343) : warning C4996: 'ExQueueWorkItem' was declared deprecated
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\memtrack.c(108) : warning C4996: 'ExAllocatePool' was declared deprecated
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\packet.c(233) : warning C4995: 'MmGetSystemAddressForMdl': name was marked as #pragma deprecated
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\packet.c(233) : warning C4996: 'MmMapLockedPages' was declared deprecated
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\packet.c(266) : warning C4995: 'MmGetSystemAddressForMdl': name was marked as #pragma deprecated
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\packet.c(266) : warning C4996: 'MmMapLockedPages' was declared deprecated
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\packet.c(316) : warning C4995: 'MmGetSystemAddressForMdl': name was marked as #pragma deprecated
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\packet.c(316) : warning C4996: 'MmMapLockedPages' was declared deprecated
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\disp_sr.c(113) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [4]'
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\disp_sr.c(113) : warning C4024: 'ExAllocatePoolWithTag' : different types for formal and actual parameter 3
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\disp_sr.c(124) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [4]'
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\disp_sr.c(124) : warning C4024: 'ExFreePoolWithTag' : different types for formal and actual parameter 2
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\disp_sr.c(178) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [4]'
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\disp_sr.c(178) : warning C4024: 'ExAllocatePoolWithTag' : different types for formal and actual parameter 3
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\disp_sr.c(194) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [4]'
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\disp_sr.c(194) : warning C4024: 'ExFreePoolWithTag' : different types for formal and actual parameter 2

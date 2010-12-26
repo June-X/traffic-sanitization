@@ -1,0 +1,71 @@
+bin/iperf.exe -c 157.166.255.18 -P 1 -i 1 -p 80 -f k -t 10
+------------------------------------------------------------
+Client connecting to 157.166.255.18, TCP port 80
+TCP window size: 8.00 KByte (default)
+------------------------------------------------------------
+[1912] local 127.0.0.1 port 1090 connected with 157.166.255.18 port 80
+[ ID] Interval       Transfer     Bandwidth
+[1912]  0.0-21.3 sec   136 KBytes  52.4 Kbits/sec
+write failed: Connection reset by peer
+read on server close failed: Connection reset by peer
+Done.
+
+bin/iperf.exe -c 127.0.0.1 -P 1 -i 1 -p 5001 -f k -t 10
+------------------------------------------------------------
+Client connecting to 127.0.0.1, TCP port 5001
+TCP window size: 8.00 KByte (default)
+------------------------------------------------------------
+[1912] local 127.0.0.1 port 1092 connected with 127.0.0.1 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[1912]  0.0- 1.0 sec  2304 KBytes  18874 Kbits/sec
+[1912]  1.0- 2.0 sec  1552 KBytes  12714 Kbits/sec
+[1912]  2.0- 3.0 sec  1920 KBytes  15729 Kbits/sec
+[1912]  3.0- 4.0 sec  2112 KBytes  17302 Kbits/sec
+[1912]  4.0- 5.0 sec  1952 KBytes  15991 Kbits/sec
+[1912]  5.0- 6.0 sec  1760 KBytes  14418 Kbits/sec
+[1912]  6.0- 7.0 sec  1648 KBytes  13500 Kbits/sec
+[1912]  7.0- 8.0 sec  1632 KBytes  13369 Kbits/sec
+[1912]  8.0- 9.0 sec  1344 KBytes  11010 Kbits/sec
+[1912]  9.0-10.0 sec  1488 KBytes  12190 Kbits/sec
+[1912]  0.0-10.2 sec  17720 KBytes  14295 Kbits/sec
+Done.
+
+bin/iperf.exe -c 128.6.60.31 -P 1 -i 1 -p 80 -f k -t 10
+connect failed: Connection timed out.
+Done.
+
+bin/iperf.exe -c 128.6.60.31 -P 1 -i 1 -p 80 -f k -t 10
+connect failed: Connection timed out.
+Done.
+
+bin/iperf.exe -c 128.6.60.31 -P 1 -i 1 -p 80 -f k -t 10
+connect failed: Connection timed out.
+Done.
+
+bin/iperf.exe -c 128.6.60.31 -P 1 -i 1 -p 80 -f k -t 10
+
+Iperf thread stopped [CAUSE=null]
+bin/iperf.exe -c 127.0.0.1 -P 1 -i 1 -p 5001 -f k -t 10
+connect failed: Connection refused
+Done.
+
+bin/iperf.exe -c 127.0.0.1 -P 1 -i 1 -p 5001 -f k -t 10
+------------------------------------------------------------
+Client connecting to 127.0.0.1, TCP port 5001
+TCP window size: 8.00 KByte (default)
+------------------------------------------------------------
+[1912] local 127.0.0.1 port 1311 connected with 127.0.0.1 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[1912]  0.0- 1.0 sec  3624 KBytes  29688 Kbits/sec
+[1912]  1.0- 2.0 sec  3008 KBytes  24642 Kbits/sec
+[1912]  2.0- 3.0 sec  3112 KBytes  25494 Kbits/sec
+[1912]  3.0- 4.0 sec  2752 KBytes  22544 Kbits/sec
+[1912]  4.0- 5.0 sec  2760 KBytes  22610 Kbits/sec
+[1912]  5.0- 6.0 sec  2968 KBytes  24314 Kbits/sec
+[1912]  6.0- 7.0 sec  2752 KBytes  22544 Kbits/sec
+[1912]  7.0- 8.0 sec  2800 KBytes  22938 Kbits/sec
+[1912]  8.0- 9.0 sec  2600 KBytes  21299 Kbits/sec
+[1912]  9.0-10.0 sec  2576 KBytes  21103 Kbits/sec
+[1912]  0.0-10.1 sec  28960 KBytes  23573 Kbits/sec
+Done.
+

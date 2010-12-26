@@ -1,0 +1,19 @@
+warnings in directory c:\tdifw\passthru
+c:\tdifw\passthru\miniport.c(682) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [4]'
+c:\tdifw\passthru\miniport.c(682) : warning C4024: 'ExAllocatePoolWithTag' : different types for formal and actual parameter 3
+c:\tdifw\passthru\miniport.c(690) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [4]'
+c:\tdifw\passthru\miniport.c(690) : warning C4024: 'ExFreePoolWithTag' : different types for formal and actual parameter 2
+c:\tdifw\passthru\miniport.c(696) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [4]'
+c:\tdifw\passthru\miniport.c(696) : warning C4024: 'ExFreePoolWithTag' : different types for formal and actual parameter 2
+c:\tdifw\passthru\miniport.c(710) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [4]'
+c:\tdifw\passthru\miniport.c(710) : warning C4024: 'ExFreePoolWithTag' : different types for formal and actual parameter 2
+c:\tdifw\passthru\miniport.c(716) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [5]'
+c:\tdifw\passthru\miniport.c(716) : warning C4024: 'ExFreePoolWithTag' : different types for formal and actual parameter 2
+c:\tdifw\passthru\miniport.c(728) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [4]'
+c:\tdifw\passthru\miniport.c(728) : warning C4024: 'ExAllocatePoolWithTag' : different types for formal and actual parameter 3
+c:\tdifw\passthru\miniport.c(732) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [4]'
+c:\tdifw\passthru\miniport.c(732) : warning C4024: 'ExFreePoolWithTag' : different types for formal and actual parameter 2
+c:\tdifw\passthru\miniport.c(870) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [4]'
+c:\tdifw\passthru\miniport.c(870) : warning C4024: 'ExFreePoolWithTag' : different types for formal and actual parameter 2
+c:\tdifw\passthru\miniport.c(876) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [5]'
+c:\tdifw\passthru\miniport.c(876) : warning C4024: 'ExFreePoolWithTag' : different types for formal and actual parameter 2

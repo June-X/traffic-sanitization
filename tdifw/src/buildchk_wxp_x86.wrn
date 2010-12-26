@@ -1,0 +1,10 @@
+warnings in directory c:\tdifw\tdifw\src\drv
+c:\tdifw\tdifw\src\drv\disp_dg.c(178) : warning C4098: 'readFile' : 'void' function returning a value
+c:\tdifw\tdifw\src\drv\disp_sr.c(122) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [4]'
+c:\tdifw\tdifw\src\drv\disp_sr.c(122) : warning C4024: 'ExAllocatePoolWithTag' : different types for formal and actual parameter 3
+c:\tdifw\tdifw\src\drv\disp_sr.c(133) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [4]'
+c:\tdifw\tdifw\src\drv\disp_sr.c(133) : warning C4024: 'ExFreePoolWithTag' : different types for formal and actual parameter 2
+c:\tdifw\tdifw\src\drv\disp_sr.c(187) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [4]'
+c:\tdifw\tdifw\src\drv\disp_sr.c(187) : warning C4024: 'ExAllocatePoolWithTag' : different types for formal and actual parameter 3
+c:\tdifw\tdifw\src\drv\disp_sr.c(203) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [4]'
+c:\tdifw\tdifw\src\drv\disp_sr.c(203) : warning C4024: 'ExFreePoolWithTag' : different types for formal and actual parameter 2
