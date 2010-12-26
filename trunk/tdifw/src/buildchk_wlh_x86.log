@@ -1,0 +1,413 @@
+BUILD: Computing Include file dependencies:
+BUILD: Examining c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src directory tree for files to compile.
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv: Do not set ntdebug.
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv: 
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv: Do not set ntdebug.
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv: 
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\svc: Do not set ntdebug.
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\svc: 
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\svc: Do not set ntdebug.
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\svc: 
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\install: Do not set ntdebug.
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\install: 
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\install: Do not set ntdebug.
+c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\install: 
+skipping post pass 0 command
+1>Compiling and Linking c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv *************
+1>'nmake.exe /nologo BUILDMSG=Stop. -i BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+1>BUILDMSG: Processing c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv
+2>Compiling and Linking c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\svc *************
+2>'nmake.exe /nologo BUILDMSG=Stop. -i BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+2>BUILDMSG: Processing c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\svc
+2>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\svc: TARGETPATH is obj
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv: TARGETPATH is obj
+2> cl.exe @c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\svc\objchk_wlh_x86\i386\cl.rsp
+1> cl.exe @c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\objchk_wlh_x86\i386\cl.rsp
+2>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.278 for 80x86
+2>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.278 for 80x86
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+2>cl /Fo"c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\svc\objchk_wlh_x86\i386/"
+2> /FC
+2> /Ii386
+2> /I.
+2> /I..
+2> /Ic:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\svc\objchk_wlh_x86\i386
+2> /IC:\WinDDK\6001.18002\inc\api
+2> /IC:\WinDDK\6001.18002\inc\api
+2> /IC:\WinDDK\6001.18002\inc\crt
+2> /D_X86_=1
+2> /Di386=1
+2> /DCONDITION_HANDLING=1
+2> /DNT_INST=0
+2> /DWIN32=100
+2> /D_NT1X_=100
+2> /DWINNT=1
+2> /D_WIN32_WINNT=0x0600
+2> /DWINVER=0x0600
+2> /D_WIN32_IE=0x0700
+2> /DWIN32_LEAN_AND_MEAN=1
+2> /DDEVL=1
+2> /DDBG=1
+2> /D__BUILDMACHINE__=WinDDK
+2> /DFPO=0
+2> /D_DLL=1
+2> /D_MT=1
+2> /DDEPRECATE_DDK_FUNCTIONS=1
+2> /DMSC_NOOPT
+2> /DNTDDI_VERSION=0x06000100
+2> /c
+2> /Zc:wchar_t-
+2> /Zl
+2> /Zp8
+2> /Gy
+2> /Gm-
+2> /W3
+2> /Gd
+2> /hotpatch
+2> /EHs-c-
+2> /GR-
+2> /GF
+2> /GS
+2> /Zi
+1>cl /Fo"c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\objchk_wlh_x86\i386/"
+2> /Od
+1> /FC
+2> /Oi
+2> /Oy-
+1> /Ii386
+2> /Zi
+1> /I.
+2> /Fdc:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\svc\objchk_wlh_x86\i386\
+2> /DKMDF_MAJOR_VERSION=01
+1> /I..
+2> /DKMDF_MINOR_VERSION=007
+1> /Ic:\winddk\6001.18002\bin\..\src\network\inc
+2> /FIC:\WinDDK\6001.18002\inc\api\warning.h
+1> /Ic:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\objchk_wlh_x86\i386
+2> .\tdifw_svc.c .\main.c .\flt_rule.c 
+1> /IC:\WinDDK\6001.18002\inc\api
+1> /IC:\WinDDK\6001.18002\inc\api
+1> /IC:\WinDDK\6001.18002\inc\ddk
+1> /IC:\WinDDK\6001.18002\inc\ddk
+1> /IC:\WinDDK\6001.18002\inc\crt
+1> /D_X86_=1
+1> /Di386=1
+2>tdifw_svc.c
+1> /DSTD_CALL
+1> /DCONDITION_HANDLING=1
+1> /DNT_INST=0
+1> /DWIN32=100
+1> /D_NT1X_=100
+1> /DWINNT=1
+1> /D_WIN32_WINNT=0x0600
+1> /DWINVER=0x0600
+1> /D_WIN32_IE=0x0700
+1> /DWIN32_LEAN_AND_MEAN=1
+1> /DDEVL=1
+1> /DDBG=1
+1> /D__BUILDMACHINE__=WinDDK
+1> /DFPO=0
+1> /D_DLL=1
+1> /DNDEBUG
+1> -DUSE_PACKET_ENGINE
+1> /DDEPRECATE_DDK_FUNCTIONS=1
+1> /DMSC_NOOPT
+1> /DNTDDI_VERSION=0x06000100
+1> /c
+1> /Zc:wchar_t-
+1> /Zl
+1> /Zp8
+1> /Gy
+1> /Gm-
+1> -cbstring
+1> /W1
+1> /Gz
+1> /hotpatch
+1> /EHs-c-
+1> /GR-
+1> /GF
+1> /GS
+1> /Zi
+1> /Od
+1> /Oi
+1> /Oy-
+1> /Zi
+1> /Fdc:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\objchk_wlh_x86\i386\
+1> /DKMDF_MAJOR_VERSION=01
+1> /DKMDF_MINOR_VERSION=007
+1> /FIC:\WinDDK\6001.18002\inc\api\warning.h
+1> .\tdi_fw.c .\umac.c .\rijndael-alg-fst.c .\dispatch.c .\disp_conn.c .\disp_dg.c .\disp_ev.c .\disp_obj.c .\events.c .\ev_conn.c .\ev_dg.c .\filter.c .\memtrack.c .\obj_tbl.c .\sock.c .\ipc.c .\pid_pname.c .\packet.c .\conn_state.c .\sids.c .\disp_sr.c .\ev_recv.c 
+1>tdi_fw.c
+1>umac.c
+2>main.c
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\rijndael-alg-fst.h(32) : warning C4005: '_MSC_VER' : macro redefinition
+1>warnings in directory c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\rijndael-alg-fst.h(32) : warning C4005: '_MSC_VER' : macro redefinition
+1> command-line arguments : see previous definition of '_MSC_VER'
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\umac.c(1691) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [5]'
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\umac.c(1691) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [5]'
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\umac.c(1691) : warning C4024: 'ExAllocatePoolWithTag' : different types for formal and actual parameter 3
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\umac.c(1691) : warning C4024: 'ExAllocatePoolWithTag' : different types for formal and actual parameter 3
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\umac.c(1717) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [5]'
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\umac.c(1717) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [5]'
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\umac.c(1717) : warning C4024: 'ExFreePoolWithTag' : different types for formal and actual parameter 2
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\umac.c(1717) : warning C4024: 'ExFreePoolWithTag' : different types for formal and actual parameter 2
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\umac.c(1883) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [5]'
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\umac.c(1883) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [5]'
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\umac.c(1883) : warning C4024: 'ExFreePoolWithTag' : different types for formal and actual parameter 2
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\umac.c(1883) : warning C4024: 'ExFreePoolWithTag' : different types for formal and actual parameter 2
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\umac.c(1899) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [5]'
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\umac.c(1899) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [5]'
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\umac.c(1899) : warning C4024: 'ExAllocatePoolWithTag' : different types for formal and actual parameter 3
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\umac.c(1899) : warning C4024: 'ExAllocatePoolWithTag' : different types for formal and actual parameter 3
+1>rijndael-alg-fst.c
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\rijndael-alg-fst.h(32) : warning C4005: '_MSC_VER' : macro redefinition
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\rijndael-alg-fst.h(32) : warning C4005: '_MSC_VER' : macro redefinition
+1> command-line arguments : see previous definition of '_MSC_VER'
+1>dispatch.c
+2>flt_rule.c
+1>disp_conn.c
+2>Generating Code...
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\disp_conn.c(342) : warning C4995: 'ExInitializeWorkItem': name was marked as #pragma deprecated
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\disp_conn.c(342) : warning C4995: 'ExInitializeWorkItem': name was marked as #pragma deprecated
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\disp_conn.c(343) : warning C4996: 'ExQueueWorkItem' was declared deprecated
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\disp_conn.c(343) : warning C4996: 'ExQueueWorkItem' was declared deprecated
+1> c:\winddk\6001.18002\inc\ddk\wdm.h(15375) : see declaration of 'ExQueueWorkItem'
+1>disp_dg.c
+2> link.exe /out:c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\svc\objchk_wlh_x86\i386\tdifw.exe /machine:ix86 @c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\svc\objchk_wlh_x86\i386\lnk.rsp
+1>disp_ev.c
+2>Microsoft (R) Incremental Linker Version 8.00.50727.278
+2>Copyright (C) Microsoft Corporation.  All rights reserved.
+2>/MERGE:_PAGE=PAGE 
+2>/MERGE:_TEXT=.text 
+2>/SECTION:INIT,d 
+2>/OPT:REF 
+2>/OPT:ICF 
+2>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+2>/INCREMENTAL:NO 
+2>/release 
+2>/NODEFAULTLIB 
+2>/WX 
+2>/debug 
+2>/debugtype:cv,fixup,pdata 
+2>/version:6.0 
+2>/osversion:6.0 
+2>/functionpadmin:5 
+2>/safeseh 
+2>/opt:nowin98 
+2>/nxcompat 
+2>/merge:.rdata=.text 
+2>/pdbcompress 
+2>/STACK:0x40000,0x2000 
+2>/tsaware 
+2>/dynamicbase 
+2>/subsystem:console,6.00 
+2>/base:@C:\WinDDK\6001.18002\bin\coffbase.txt,usermode 
+2>/entry:mainCRTStartup 
+2>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\svc\objchk_wlh_x86\i386\tdifw_svc.obj 
+2>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\svc\objchk_wlh_x86\i386\main.obj 
+2>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\svc\objchk_wlh_x86\i386\flt_rule.obj 
+2>C:\WinDDK\6001.18002\lib\wlh\i386\advapi32.lib 
+2>C:\WinDDK\6001.18002\lib\wlh\i386\kernel32.lib 
+2>C:\WinDDK\6001.18002\lib\crt\i386\msvcrt.lib 
+2>C:\WinDDK\6001.18002\lib\wlh\i386\wsock32.lib 
+2>C:\WinDDK\6001.18002\lib\wlh\i386\Winmm.lib 
+2>iphlpapi.lib 
+1>disp_obj.c
+1>events.c
+2>Compiling and Linking c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\install *************
+2>'nmake.exe /nologo BUILDMSG=Stop. -i BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+2>BUILDMSG: Processing c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\install
+1>ev_conn.c
+1>ev_dg.c
+2>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\install: TARGETPATH is obj
+1>filter.c
+2> cl.exe @c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\install\objchk_wlh_x86\i386\cl.rsp
+1>memtrack.c
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\memtrack.c(108) : warning C4996: 'ExAllocatePool' was declared deprecated
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\memtrack.c(108) : warning C4996: 'ExAllocatePool' was declared deprecated
+1> c:\winddk\6001.18002\inc\ddk\wdm.h(14240) : see declaration of 'ExAllocatePool'
+1>obj_tbl.c
+2>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.278 for 80x86
+2>Copyright (C) Microsoft Corporation.  All rights reserved.
+2>cl /Fo"c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\install\objchk_wlh_x86\i386/"
+2> /FC
+2> /Ii386
+2> /I.
+2> /Ic:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\install\objchk_wlh_x86\i386
+2> /IC:\WinDDK\6001.18002\inc\api
+2> /IC:\WinDDK\6001.18002\inc\api
+2> /IC:\WinDDK\6001.18002\inc\crt
+2> /D_X86_=1
+2> /Di386=1
+2> /DCONDITION_HANDLING=1
+2> /DNT_INST=0
+2> /DWIN32=100
+2> /D_NT1X_=100
+2> /DWINNT=1
+2> /D_WIN32_WINNT=0x0600
+2> /DWINVER=0x0600
+2> /D_WIN32_IE=0x0700
+2> /DWIN32_LEAN_AND_MEAN=1
+2> /DDEVL=1
+2> /DDBG=1
+2> /D__BUILDMACHINE__=WinDDK
+2> /DFPO=0
+2> /D_DLL=1
+2> /D_MT=1
+2> /DDEPRECATE_DDK_FUNCTIONS=1
+2> /DMSC_NOOPT
+2> /DNTDDI_VERSION=0x06000100
+2> /c
+2> /Zc:wchar_t-
+2> /Zl
+2> /Zp8
+2> /Gy
+2> /Gm-
+2> /W3
+2> /Gd
+2> /hotpatch
+2> /EHs-c-
+2> /GR-
+2> /GF
+2> /GS
+2> /Zi
+2> /Od
+2> /Oi
+2> /Oy-
+2> /Zi
+2> /Fdc:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\install\objchk_wlh_x86\i386\
+2> /DKMDF_MAJOR_VERSION=01
+2> /DKMDF_MINOR_VERSION=007
+2> /FIC:\WinDDK\6001.18002\inc\api\warning.h
+2> .\tdi_install.c 
+2>tdi_install.c
+1>sock.c
+1>ipc.c
+2> link.exe /out:c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\install\objchk_wlh_x86\i386\install.exe /machine:ix86 @c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\install\objchk_wlh_x86\i386\lnk.rsp
+2>Microsoft (R) Incremental Linker Version 8.00.50727.278
+2>Copyright (C) Microsoft Corporation.  All rights reserved.
+2>/MERGE:_PAGE=PAGE 
+2>/MERGE:_TEXT=.text 
+2>/SECTION:INIT,d 
+2>/OPT:REF 
+2>/OPT:ICF 
+2>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+2>/INCREMENTAL:NO 
+2>/release 
+2>/NODEFAULTLIB 
+2>/WX 
+2>/debug 
+2>/debugtype:cv,fixup,pdata 
+2>/version:6.0 
+2>/osversion:6.0 
+2>/functionpadmin:5 
+2>/safeseh 
+2>/opt:nowin98 
+2>/nxcompat 
+2>/merge:.rdata=.text 
+2>/pdbcompress 
+2>/STACK:0x40000,0x2000 
+2>/tsaware 
+2>/dynamicbase 
+2>/subsystem:console,6.00 
+2>/base:@C:\WinDDK\6001.18002\bin\coffbase.txt,usermode 
+2>/entry:mainCRTStartup 
+2>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\install\objchk_wlh_x86\i386\tdi_install.obj 
+2>C:\WinDDK\6001.18002\lib\wlh\i386\advapi32.lib 
+2>C:\WinDDK\6001.18002\lib\wlh\i386\kernel32.lib 
+2>C:\WinDDK\6001.18002\lib\crt\i386\msvcrt.lib 
+1>pid_pname.c
+1>packet.c
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\packet.c(233) : warning C4995: 'MmGetSystemAddressForMdl': name was marked as #pragma deprecated
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\packet.c(233) : warning C4995: 'MmGetSystemAddressForMdl': name was marked as #pragma deprecated
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\packet.c(233) : warning C4996: 'MmMapLockedPages' was declared deprecated
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\packet.c(233) : warning C4996: 'MmMapLockedPages' was declared deprecated
+1> c:\winddk\6001.18002\inc\ddk\wdm.h(16801) : see declaration of 'MmMapLockedPages'
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\packet.c(266) : warning C4995: 'MmGetSystemAddressForMdl': name was marked as #pragma deprecated
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\packet.c(266) : warning C4995: 'MmGetSystemAddressForMdl': name was marked as #pragma deprecated
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\packet.c(266) : warning C4996: 'MmMapLockedPages' was declared deprecated
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\packet.c(266) : warning C4996: 'MmMapLockedPages' was declared deprecated
+1> c:\winddk\6001.18002\inc\ddk\wdm.h(16801) : see declaration of 'MmMapLockedPages'
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\packet.c(316) : warning C4995: 'MmGetSystemAddressForMdl': name was marked as #pragma deprecated
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\packet.c(316) : warning C4995: 'MmGetSystemAddressForMdl': name was marked as #pragma deprecated
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\packet.c(316) : warning C4996: 'MmMapLockedPages' was declared deprecated
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\packet.c(316) : warning C4996: 'MmMapLockedPages' was declared deprecated
+1> c:\winddk\6001.18002\inc\ddk\wdm.h(16801) : see declaration of 'MmMapLockedPages'
+1>conn_state.c
+1>sids.c
+1>Generating Code...
+1>Compiling...
+1>disp_sr.c
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\disp_sr.c(113) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [4]'
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\disp_sr.c(113) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [4]'
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\disp_sr.c(113) : warning C4024: 'ExAllocatePoolWithTag' : different types for formal and actual parameter 3
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\disp_sr.c(113) : warning C4024: 'ExAllocatePoolWithTag' : different types for formal and actual parameter 3
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\disp_sr.c(124) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [4]'
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\disp_sr.c(124) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [4]'
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\disp_sr.c(124) : warning C4024: 'ExFreePoolWithTag' : different types for formal and actual parameter 2
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\disp_sr.c(124) : warning C4024: 'ExFreePoolWithTag' : different types for formal and actual parameter 2
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\disp_sr.c(178) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [4]'
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\disp_sr.c(178) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [4]'
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\disp_sr.c(178) : warning C4024: 'ExAllocatePoolWithTag' : different types for formal and actual parameter 3
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\disp_sr.c(178) : warning C4024: 'ExAllocatePoolWithTag' : different types for formal and actual parameter 3
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\disp_sr.c(194) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [4]'
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\disp_sr.c(194) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'char [4]'
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\disp_sr.c(194) : warning C4024: 'ExFreePoolWithTag' : different types for formal and actual parameter 2
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\disp_sr.c(194) : warning C4024: 'ExFreePoolWithTag' : different types for formal and actual parameter 2
+1>ev_recv.c
+1>Generating Code...
+1> link.exe /out:c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\objchk_wlh_x86\i386\tdifw_drv.sys /machine:ix86 @c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\objchk_wlh_x86\i386\lnk.rsp
+1>Microsoft (R) Incremental Linker Version 8.00.50727.278
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>/MERGE:_PAGE=PAGE 
+1>/MERGE:_TEXT=.text 
+1>/SECTION:INIT,d 
+1>/OPT:REF 
+1>/OPT:ICF 
+1>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+1>/INCREMENTAL:NO 
+1>/release 
+1>/NODEFAULTLIB 
+1>/WX 
+1>/debug 
+1>/debugtype:cv,fixup,pdata 
+1>/version:6.0 
+1>/osversion:6.0 
+1>/functionpadmin:5 
+1>/safeseh 
+1>/pdbcompress 
+1>/STACK:0x40000,0x1000 
+1>/driver 
+1>/base:0x10000 
+1>/subsystem:native,6.00 
+1>/entry:GsDriverEntry@8 
+1>/out:c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\objchk_wlh_x86\i386\tdifw_drv.sys 
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\objchk_wlh_x86\i386\tdi_fw.obj 
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\objchk_wlh_x86\i386\umac.obj 
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\objchk_wlh_x86\i386\rijndael-alg-fst.obj 
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\objchk_wlh_x86\i386\dispatch.obj 
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\objchk_wlh_x86\i386\disp_conn.obj 
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\objchk_wlh_x86\i386\disp_dg.obj 
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\objchk_wlh_x86\i386\disp_ev.obj 
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\objchk_wlh_x86\i386\disp_obj.obj 
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\objchk_wlh_x86\i386\events.obj 
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\objchk_wlh_x86\i386\ev_conn.obj 
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\objchk_wlh_x86\i386\ev_dg.obj 
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\objchk_wlh_x86\i386\filter.obj 
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\objchk_wlh_x86\i386\memtrack.obj 
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\objchk_wlh_x86\i386\obj_tbl.obj 
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\objchk_wlh_x86\i386\sock.obj 
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\objchk_wlh_x86\i386\ipc.obj 
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\objchk_wlh_x86\i386\pid_pname.obj 
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\objchk_wlh_x86\i386\packet.obj 
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\objchk_wlh_x86\i386\conn_state.obj 
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\objchk_wlh_x86\i386\sids.obj 
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\objchk_wlh_x86\i386\disp_sr.obj 
+1>c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\drv\objchk_wlh_x86\i386\ev_recv.obj 
+1>C:\WinDDK\6001.18002\lib\wlh\i386\BufferOverflowK.lib 
+1>C:\WinDDK\6001.18002\lib\wlh\i386\ntoskrnl.lib 
+1>C:\WinDDK\6001.18002\lib\wlh\i386\hal.lib 
+1>C:\WinDDK\6001.18002\lib\wlh\i386\wmilib.lib 
+1>C:\WinDDK\6001.18002\lib\wlh\i386\tdi.lib 

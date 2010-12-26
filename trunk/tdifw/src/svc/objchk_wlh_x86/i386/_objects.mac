@@ -1,0 +1,18 @@
+
+
+386_OBJECTS=\
+ $(OBJ_PATH)\$O\tdifw_svc.obj \
+ $(OBJ_PATH)\$O\main.obj \
+ $(OBJ_PATH)\$O\flt_rule.obj \
+
+
+
+
+
+# lowercased
+BASEDIR=c:\winddk\6001.18002
+OBJECT_ROOT=c:\winddk\6001.18002
+MAKEDIR_LOWERCASE=c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\svc
+OBJ_PATH=c:\users\bonnie\desktop\rutgers\research\botnet\chehai\windows\tdifw\src\svc
+CONCURRENT_MIDL=0
+CONCURRENT_MANIFEST_BUILD=0

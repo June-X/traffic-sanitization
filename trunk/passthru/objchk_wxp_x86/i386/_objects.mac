@@ -1,0 +1,21 @@
+
+
+386_OBJECTS=\
+ $(OBJ_PATH)\$O\miniport.obj \
+ $(OBJ_PATH)\$O\passthru.obj \
+ $(OBJ_PATH)\$O\protocol.obj \
+ $(OBJ_PATH)\$O\umac.obj \
+ $(OBJ_PATH)\$O\rijndael-alg-fst.obj \
+
+
+_RES_FILE=$(OBJ_PATH)\$O\passthru.res
+
+
+
+# lowercased
+BASEDIR=c:\winddk\6001.18002
+OBJECT_ROOT=c:\winddk\6001.18002
+MAKEDIR_LOWERCASE=c:\tdifw\passthru
+OBJ_PATH=c:\tdifw\passthru
+CONCURRENT_MIDL=0
+CONCURRENT_MANIFEST_BUILD=0
